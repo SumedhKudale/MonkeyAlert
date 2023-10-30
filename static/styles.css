@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0074d9 25%, transparent 25%, transparent 50%, #0074d9 50%, #0074d9 75%, transparent 75%, transparent);
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: orange; /* Change the text color to orange */
+    background: red; /* Set the background of h1 to red */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ... (other styles) */
+
+form {
+    max-width: 300px;
+    padding: 20px;
+    background: linear-gradient(135deg, #0074d9 25%, transparent 25%, transparent 50%, #0074d9 50%, #0074d9 75%, transparent 75%, transparent);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the form contents */
+    display: inline-block;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; /* Align labels to the left */
+    color: orange; /* Change label text color to orange */
+}
+
+input[type="number"] {
+    width: 100px; /* Adjust the width as needed */
+    padding: 10px;
+    margin: 0 auto; /* Center the input box horizontally */
+    display: block; /* Make the input box a block element to center it */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add margin to create a gap between input and button */
+}
+
+/* Make the room number font bold */
+#room-number {
+    font-weight: bold;
+}
+
+/* Increase font size of the "Send Alert" button significantly */
+button {
+    width: 100%;
+    padding: 20px; /* Increase padding for better coverage */
+    background-color: orange; /* Change the button background color to orange */
+    color: blue; /* Change the button text color to blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 32px; /* Increase the font size significantly */
+}
+
+button:hover {
+    background-color: #555;
+}

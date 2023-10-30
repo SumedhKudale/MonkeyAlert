@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warn about Monkey</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Send Monkey Alert</h1>
+    <form action="/send_email" method="post">
+        <label for="room_number">Room Number:</label>
+        <input type="number" name="room_number" id="room_number" required>
+        <button type="submit">Send Alert</button>
+    </form>
+</body>
+</html>
+
+
